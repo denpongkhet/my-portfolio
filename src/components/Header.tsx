@@ -24,13 +24,6 @@ const Header = () => {
             expertise in Backend technologies to grow into a Fullstack Web
             Developer.
           </p>
-          {/* <button
-            type="button"
-            aria-label="contact-me"
-            className="border-b-2 border-green pb-3"
-          >
-            CONTACT ME
-          </button> */}
         </div>
       </div>
     </header>

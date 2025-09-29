@@ -34,10 +34,7 @@ const Main = () => {
     <div className="mt-16">
       <div className="flex items-center justify-between">
         <h1 className="text-heading-xl">Projects</h1>
-        <div>
-          {/* <button type="button" className="border-b-2 border-green pb-2">
-            CONTACT ME
-          </button> */}
+        <div>         
         </div>
       </div>
       <div className="mt-8 grid gap-12 md:grid-cols-2 ">
