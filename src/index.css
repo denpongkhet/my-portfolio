@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-sapce-grotesk: "Space Grotesk", sans-serif;
+
+  --color-black: #151515;
+  --color-dark-grey: #242424;
+  --color-green: #4ee1a0;
+  --color-grey: #d9d9d9;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    @apply bg-black font-sapce-grotesk text-body text-white;
+  }
+}
+
+@utility text-heading-xl {
+  font-size: clamp(2.5rem, 9vw, 5.5rem);
+  line-height: 100%;
+  letter-spacing: -0.0285em;
+  font-weight: 700;
+}
+
+@utility text-heading-l {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 125%;
+  letter-spacing: -0.03125em;
+  font-weight: 700;
+}
+
+@utility text-heading-m {
+  font-size: 1.5rem;
+  line-height: calc(2.25 / 1.5);
+  font-weight: 700;
+}
+
+@utility text-body {
+  font-size: clamp(1rem, 3vw, 1.125rem);
+  line-height: 150%;
+  font-weight: 500;
+}
